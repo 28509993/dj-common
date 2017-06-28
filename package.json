@@ -1,0 +1,22 @@
+{
+  "name": "dj-common",
+  "version": "0.0.1",
+  "description": "dj-common desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/28509993/dj-common.git"
+  },
+  "keywords": [
+    "dj-core"
+  ],
+  "author": "dangjia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/28509993/dj-common/issues"
+  },
+  "homepage": "https://github.com/28509993/dj-common#readme"
+}
