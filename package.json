@@ -1,6 +1,6 @@
 {
   "name": "dj-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "dj-common desc",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/28509993/dj-common.git"
   },
   "keywords": [
-    "dj-core"
+    "dj-common"
   ],
   "author": "dangjia",
   "license": "ISC",
