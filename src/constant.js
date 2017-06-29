@@ -363,10 +363,10 @@ function paymentSupMixCond(paymentValue) {
   return MixCondSelectable;
 }
 
-function filter(arr, filter) {
+function filter(arr, f) {
   var n = []
   arr.forEach(function (v) {
-    if (filter(v)) {
+    if (f(v)) {
       n.push(v)
     }
   })
