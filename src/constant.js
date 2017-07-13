@@ -4,9 +4,9 @@ var constantSetting = {
   billStatus: function billStatus() {
     return [
       {cn: '待生效', en: 'not_validity', filter: 'sc'},
-      {cn: '待采购', en: 'not_purchase', filter: 'sc,scpo'},
-      {cn: '采购待确认', en: 'purchase_to_confirm', filter: 'po,sc,scpo'},
-      {cn: '待出运', en: 'not_bookorder', filter: 'sc,po,scpo'},
+      {cn: '待采购', en: 'not_purchase', filter: 'sc,scpu'},
+      {cn: '采购待确认', en: 'purchase_to_confirm', filter: 'po,sc,scpu'},
+      {cn: '待出运', en: 'not_bookorder', filter: 'sc,po,scpu'},
       {cn: '待订舱', en: 'not_bookorder', filter: 'bk'},
       {cn: '待装箱', en: 'not_loading', filter: 'bk'},
       {cn: '待报关', en: 'not_declaration', filter: 'bk'},
