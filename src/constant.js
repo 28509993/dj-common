@@ -7,11 +7,11 @@ var constantSetting = {
       {cn: '待采购', en: 'not_purchase', filter: 'sc,scpu'},
       {cn: '采购待确认', en: 'purchase_to_confirm', filter: 'po,sc,scpu'},
       {cn: '待出运', en: 'not_bookorder', filter: 'sc,po,scpu'},
-      {cn: '待订舱', en: 'not_bookorder', filter: 'bk'},
-      {cn: '待装箱', en: 'not_loading', filter: 'bk'},
-      {cn: '待报关', en: 'not_declaration', filter: 'bk'},
-      {cn: '待收提单', en: 'not_bl', filter: 'bk'},
-      {cn: '待议付', en: 'not_settle', filter: 'bk'}
+      {cn: '待订舱', en: 'normal', filter: 'bk'},
+      {cn: '待装箱', en: 'wait_reply', filter: 'bk'},
+      {cn: '待报关', en: 'load_confirmed', filter: 'bk'},
+      {cn: '待收提单', en: 'decl_done', filter: 'bk'},
+      {cn: '待议付', en: 'bl_done', filter: 'bk'}
       // { cn: '已出运', en: '', filter: 'scpm,popm,sc,po' }
     ];
   },
