@@ -16,7 +16,7 @@ var constantSetting = {
     ];
   },
   containersType: function containersType() {
-    return [{en: '40HQ', v: 0}, {en: '40GP', v: 1}, {en: '20GP', v: 2}, {en: 'LCL', v: 3}, {en: 'N/A', v: 10}];
+    return [{en: '40HC', v: 0}, {en: '40GP', v: 1}, {en: '20GP', v: 2}, {en: 'LCL', v: 3}, {en: 'N/A', v: 10}];
   },
   loadingMethod: function loadingMethod() {
     return [{cn: '送货入仓', v: 0}, {cn: '工厂提柜', v: 2}, {cn: '货代提柜', v: 3}];
