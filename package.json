@@ -1,6 +1,6 @@
 {
   "name": "dj-common",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "dj-common desc",
   "main": "src/index.js",
   "scripts": {
