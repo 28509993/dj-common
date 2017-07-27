@@ -384,6 +384,6 @@ function Constant(type, abbr) {
 }
 
 Constant.paymentMixCond = paymentMixCond
-Constant.paymentSubMixCond = paymentSubMixCond
+Constant.paymentSupMixCond = paymentSupMixCond
 
 module.exports = Constant;
