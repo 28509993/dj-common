@@ -383,4 +383,7 @@ function Constant(type, abbr) {
   }
 }
 
+Constant.paymentMixCond = paymentMixCond
+Constant.paymentSubMixCond = paymentSubMixCond
+
 module.exports = Constant;
