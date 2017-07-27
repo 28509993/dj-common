@@ -33,7 +33,7 @@ var Formula = {
       cuft = cbm / rate;
     }
     return {
-      cbm: cbm,
+      cbm: cbm.toFixed(4) * 1,
       cuft: cuft
     };
   }
