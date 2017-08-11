@@ -145,10 +145,6 @@ var constantSetting = {
       en: 'before delivery',
       cn: '交货前',
       selectable: ['1', '2']
-    }, {en: 'after inspection', cn: '验货合格后', selectable: ['1', '2']}, {
-      en: 'after shipping',
-      cn: '货物出运后',
-      selectable: ['1']
     }];
   },
   paymentCutPointMixCond: function paymentCutPointMixCond() {
