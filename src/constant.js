@@ -340,6 +340,8 @@ function paymentMixCond(paymentValue) {
 }
 
 function paymentSupMixCond(paymentValue) {
+  var MixCondSelectable = [];
+  if (!paymentValue || !paymentValue.txt) return MixCondSelectable;
   var paymentTypes = constantMap['paymentSupplierTime'];
   var MixConds = constantMap['paymentSupplierType'];
   if (paymentValue.txt) paymentValue = paymentValue.txt;
@@ -349,13 +351,12 @@ function paymentSupMixCond(paymentValue) {
       t = item;
     }
   });
-  var MixCondSelectable = [];
   if (t && Array.isArray(t.selectable)) {
     MixConds.forEach(function (item) {
       var v = t.selectable.contains(item.type);
       v && MixCondSelectable.push(item);
     });
-  }
+  }}
   return MixCondSelectable;
 }
 
