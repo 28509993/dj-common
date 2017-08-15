@@ -141,11 +141,10 @@ var constantSetting = {
     return [{en: '100% T/T 30 days after sales contract'}, {en: '100% T/T 60 days after sales contract'}, {en: '100% T/T 90 days after sales contract'}, {en: '100% T/T 120 days after sales contract'}, {en: '100% T/T against copy of B/L'}, {en: '100% T/T against full set of copy shipping docs'}, {en: '30% T/T deposit, 70% against copy of B/L'}, {en: '30% T/T deposit, 70% before shipment'}, {en: '20% T/T deposit, 80% against copy of B/L'}, {en: '20% T/T deposit, 80% before shipment'}, {en: '100% T/T in advance after sales contract'}, {en: '100% T/T in advance before shipment'}, {en: '100% L/C at sight'}, {en: '100% D/P at sight'}, {en: '100% D/A at sight'}, {en: '100% D/A 30 days after sight'}, {en: '100% D/A 60 days after sight'}];
   },
   paymentSupplierTime: function paymentSupplierTime() {
-    return [{en: 'after signed', cn: '合同签订后', selectable: ['1']}, {
-      en: 'before delivery',
-      cn: '交货前',
-      selectable: ['1', '2']
-    }];
+    return [{en: 'after signed', cn: '合同签订后', selectable: ['1']},
+      {en: 'before delivery',cn: '交货前', selectable: ['1', '2']},
+      { en: 'after shipping', cn: '货物出运后', selectable: ['1'] }
+    ];
   },
   paymentCutPointMixCond: function paymentCutPointMixCond() {
     return [{en: 'before shipment', type: '1'}, {en: 'against copy of B/L', type: '2'}, {
@@ -340,10 +339,10 @@ function paymentMixCond(paymentValue) {
 }
 
 function paymentSupMixCond(paymentValue) {
+  var paymentTypes = constantMap['paymentSupplierTime']||[];
+  var MixConds = constantMap['paymentSupplierType'] ||[];
   var MixCondSelectable = [];
   if (!paymentValue || !paymentValue.txt) return MixCondSelectable;
-  var paymentTypes = constantMap['paymentSupplierTime'];
-  var MixConds = constantMap['paymentSupplierType'];
   if (paymentValue.txt) paymentValue = paymentValue.txt;
   var t = undefined;
   paymentTypes.forEach(function (item) {
@@ -356,7 +355,7 @@ function paymentSupMixCond(paymentValue) {
       var v = t.selectable.contains(item.type);
       v && MixCondSelectable.push(item);
     });
-  }}
+  }
   return MixCondSelectable;
 }
 
