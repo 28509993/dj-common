@@ -286,6 +286,26 @@ var constantSetting = {
       // {en: 'brownbox', cn: '棕盒'},
       // {en: 'displaybox', cn: '展示盒'}
     ];
+  },
+  alterReason: function () {
+    let reason = {
+      C1: '客户订金未付',
+      C2: '客户货款未付',
+      C3: '客户不清关',
+      C4: '关键资料延迟（包装、唛头、参数等）',
+      C5: '客户要求延期',
+      C6: '客户要求分批',
+      F1: '工厂交货延期',
+      F2: '产品检测不合格',
+      S1: '装箱量计算错误'
+    }
+    var data = []
+    for (var i in arguments) {
+      var field = arguments[i].toUpperCase()
+      reason[field] && data.push(reason[field])
+    }
+    data.length || (data = Object.values(reason))
+    return data
   }
 };
 
