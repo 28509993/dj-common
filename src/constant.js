@@ -268,7 +268,8 @@ var constantSetting = {
     }, {en: 'hangtag and carry bag', cn: '吊卡＋手提袋'}, {
       en: 'stacking',
       cn: '堆叠包装'
-    }, {en: 'Brown Box  with color label＋stack', cn: '带彩贴的棕箱＋堆叠包装'}];
+    }, {en: 'Brown Box  with color label＋stack', cn: '带彩贴的棕箱＋堆叠包装'},
+    {en: 'SLEEVE CARD', cn: '围卡'}];
   },
   prodMaterial: function prodMaterial() {
     return [{en: '铁', cn: '铁'}, {en: '檀木', cn: '檀木'}, {en: '铜', cn: '铜'}
