@@ -289,7 +289,7 @@ var constantSetting = {
     ];
   },
   alterReason: function () {
-    let reason = {
+    var reason = {
       C1: '客户订金未付',
       C2: '客户货款未付',
       C3: '客户不清关',
