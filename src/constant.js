@@ -256,7 +256,7 @@ var constantSetting = {
     }, {en: 'Tie card', cn: '绑卡'}, {en: 'Window box', cn: '开窗彩盒'}, {en: 'Opp bag', cn: 'opp袋'}, {
       en: 'Color sleeve',
       cn: '绕卡'
-    }, {en: 'Mall box', cn: '中性邮购盒'}, {en: 'Pvc box with insert card', cn: 'PVC盒子＋衬卡'}, {
+    }, {en: 'Mail box', cn: '中性邮购盒'}, {en: 'Pvc box with insert card', cn: 'PVC盒子＋衬卡'}, {
       en: 'Sticker',
       cn: '彩贴'
     }, {en: 'Pvc lid with paper cover', cn: 'PVC盖子＋纸托'}, {en: 'Shrink', cn: '热收缩'}, {
