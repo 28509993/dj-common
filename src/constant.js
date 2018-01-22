@@ -205,7 +205,16 @@ var constantSetting = {
     return [{cn: '供方发货'}, {cn: '需方付款'}];
   },
   expressComs: function expressComs() {
-    return [{en: 'DHL'}, {en: 'EMS'}, {en: 'TNT'}, {en: 'UPS'}, {en: 'FEDEX'}];
+    return [
+      {en: 'DHL', cn: 'DHL'},
+      {en: 'EMS', cn: 'EMS'},
+      {en: 'TNT', cn: 'TNT'},
+      {en: 'UPS', cn: 'UPS'},
+      {en: 'FEDEX', cn: 'FEDEX'},
+      {en: 'SF', cn: '顺丰'},
+      {en: 'TACT', cn: '圆通'},
+      {en: 'STO', cn: '申通'}
+    ];
   },
   testingStandard: function testingStandard() {
     return [{en: 'CE'}, {en: 'ROHS'}, {en: 'UL'}, {en: 'REACH'}, {en: 'LFGB'}, {en: 'BS'}, {en: 'GS'}];
