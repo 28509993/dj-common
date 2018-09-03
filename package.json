@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangjia/dj-model.git"
+    "url": "git+https://github.com/Luckybye/dj-model.git"
   },
   "keywords": [
     "dj-model"
@@ -16,7 +16,7 @@
   "author": "dangjia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dangjia/dj-model/issues"
+    "url": "https://github.com/Luckybye/dj-model/issues"
   },
-  "homepage": "https://github.com/dangjia/dj-model#readme"
+  "homepage": "https://github.com/Luckybye/dj-model#readme"
 }
