@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/28509993/dj-common.git"
+    "url": "git+https://github.com/dangjia/dj-common.git"
   },
   "keywords": [
     "dj-common"
@@ -16,7 +16,7 @@
   "author": "dangjia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/28509993/dj-common/issues"
+    "url": "https://github.com/dangjia/dj-common/issues"
   },
-  "homepage": "https://github.com/28509993/dj-common#readme"
+  "homepage": "https://github.com/dangjia/dj-common#readme"
 }
