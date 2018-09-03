@@ -1,22 +1,22 @@
 {
-  "name": "dj-common",
+  "name": "dj-model",
   "version": "0.0.18",
-  "description": "dj-common desc",
+  "description": "dj-model desc",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dangjia/dj-common.git"
+    "url": "git+https://github.com/dangjia/dj-model.git"
   },
   "keywords": [
-    "dj-common"
+    "dj-model"
   ],
   "author": "dangjia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dangjia/dj-common/issues"
+    "url": "https://github.com/dangjia/dj-model/issues"
   },
-  "homepage": "https://github.com/dangjia/dj-common#readme"
+  "homepage": "https://github.com/dangjia/dj-model#readme"
 }
